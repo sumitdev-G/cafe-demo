@@ -56,7 +56,6 @@ header p {
   background: #fff;
   padding: 25px;
   border-radius: 10px;
-  width: 260px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -69,4 +68,12 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px;
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .card {
+    width: 100%;
+  }
 }
